@@ -50,8 +50,8 @@ class Circle(Shape):
 
 
 class Rectangle(Shape):
-    def area(self) -> numbers:
-        pass
+    def area(self, width, length) -> numbers:
+        return width * length
 
 
 class Cube(Shape, Volume):
